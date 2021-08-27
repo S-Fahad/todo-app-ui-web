@@ -1,0 +1,165 @@
+.main {
+  position: relative;
+  height: 300px;
+  width: 570px;
+  margin: auto;
+  text-align: center;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.task b {
+  font-size: 40px !important;
+  font-family: sans-serif !important;
+  color: black;
+}
+.task div {
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: system-ui;
+  font-weight: lighter;
+  color: rgb(216, 204, 204);
+}
+.card {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  height: 230px;
+  width: 150px;
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  border-radius: 5px;
+  margin-right: 30px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.fontchangep1 {
+  color: rgba(238, 54, 54, 0.8);
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.change {
+  text-decoration: none;
+  color: silver;
+}
+a {
+  text-decoration: none;
+  color: rgba(238, 54, 54, 0.8);
+}
+.lineleft {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  border-bottom: 2px solid rgb(190, 185, 185);
+  width: 130px;
+}
+.lineright {
+  position: absolute;
+  border-bottom: 2px solid rgb(190, 185, 185);
+  width: 130px;
+  top: 20px;
+  right: 60px;
+}
+.cardp2 {
+  position: relative;
+  height: 230px;
+  width: 160px;
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 40px;
+}
+.chkbox {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  border: 1px solid rgb(170, 164, 164);
+  height: 8px;
+  width: 8px;
+}
+.cardline {
+  position: absolute;
+  border-bottom: 1px black solid;
+  width: 120px;
+  right: 0px;
+  top: 45px;
+}
+.p2add {
+  margin: 90px 2px 2px 110px;
+}
+.cardp {
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  padding-top: 20px;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.8);
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  border-radius: 5px;
+  width: 250px;
+  height: 120px;
+}
+.cardp span {
+  background-color: rgba(238, 54, 54, 0.8);
+  color: white;
+  padding: 3px 12px 3px 12px;
+  border-radius: 25px;
+}
+.cardp input {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  border: solid red 1px;
+  border-radius: 5px;
+  height: 20px;
+}
+.task small {
+  display: inline-block;
+  background-color: rgb(238, 54, 54) !important ;
+  border-radius: 50%;
+  padding: 0px 4px 4px 4px;
+}
+.empty {
+  text-align: justify;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.empty div {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+.page2 {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.line {
+  position: absolute;
+  left: 30px;
+  border-bottom: solid black 1px;
+  width: 120px;
+}
+del {
+  color: red;
+  padding-top: 20px;
+}
+.task p {
+  position: fixed;
+  top: 80px;
+}
+.cardp2 span {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  right: 4px;
+  background-color: rgb(238, 54, 54) !important ;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+}
+.blurimg {
+  filter: blur(3px);
+}
